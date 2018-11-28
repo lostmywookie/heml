@@ -1,4 +1,5 @@
 {
+  "name": "heml-thymeleaf-fix",
   "private": true,
   "scripts": {
     "lint": "standard 'packages/**/src/**/*.js' 'test/**/*.js' --fix",
