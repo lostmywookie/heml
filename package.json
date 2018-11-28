@@ -1,5 +1,7 @@
 {
+  "author": "Denis Drozhzhov",
   "name": "heml-thymeleaf-fix",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "lint": "standard 'packages/**/src/**/*.js' 'test/**/*.js' --fix",
