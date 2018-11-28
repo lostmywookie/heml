@@ -3,15 +3,17 @@ import HEML, { createElement } from '@heml/utils' // eslint-disable-line no-unus
 export default createElement('heml', {
   unique: true,
   parent: [],
-  children: [ 'head', 'body' ],
+  children: ['head', 'body'],
   defaultAttrs: {
     'lang': 'en',
     'xmlns': 'http://www.w3.org/1999/xhtml',
     'xmlns:v': 'urn:schemas-microsoft-com:vml',
-    'xmlns:o': 'urn:schemas-microsoft-com:office:office'
+    'xmlns:o': 'urn:schemas-microsoft-com:office:office',
+    'xmlns:th': 'http://www.thymeleaf.org',
+    'th:with': "baseUrl=('https://'+${domain})"
   },
 
-  render (attrs, contents) {
+  render(attrs, contents) {
     return ([
       `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">`,
       <html {...attrs}>
