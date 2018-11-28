@@ -1,6 +1,5 @@
 {
-  "author": "Denis Drozhzhov",
-  "name": "heml-thymeleaf-fix",
+  "name": "heml",
   "version": "0.1.0",
   "private": true,
   "scripts": {
