@@ -13,7 +13,7 @@ export default createElement('heml', {
     'th:with': "baseUrl=('https://'+${domain})"
   },
 
-  render(attrs, contents) {
+  render (attrs, contents) {
     return ([
       `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">`,
       <html {...attrs}>

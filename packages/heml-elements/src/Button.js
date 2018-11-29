@@ -37,7 +37,7 @@ export default createElement('button', {
       { '@pseudo': 'text' }, 'color', 'text-decoration']
   },
 
-  render(attrs, contents) {
+  render (attrs, contents) {
     attrs.class += ' button'
 
     return (
